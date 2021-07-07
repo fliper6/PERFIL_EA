@@ -1,0 +1,985 @@
+
+----------DADOS----------
+Data: Fri May 27 23:33:43 WEST 2011
+---Clientes: 
+
+	 ---- Cliente ----
+Código Único: C1
+Nome do Cliente: Jose Pedro Malheiro
+Morada do Cliente: Rua do Sardoal, Braga
+Número do BI do Cliente: 6432523
+Número de Identificação Fiscal do Cliente: 1543151
+Código dos seguros de que é Titular:  PASS45
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C10
+Nome do Cliente: Andre Giesta
+Morada do Cliente: Rua do Quental, Braga
+Número do BI do Cliente: 4249977
+Número de Identificação Fiscal do Cliente: 4327948239
+Código dos seguros de que é Titular:  SP1 S399
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C11
+Nome do Cliente: Manuel Morgado
+Morada do Cliente: Rua dos Chaos, Braga
+Número do BI do Cliente: 321414
+Número de Identificação Fiscal do Cliente: 45324523
+Código dos seguros de que é Titular:  123
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C12
+Nome do Cliente: Micaela Bratislava
+Morada do Cliente: Rua dos Nomes Esquisitos
+Número do BI do Cliente: 3214124
+Número de Identificação Fiscal do Cliente: 4523423
+Código dos seguros de que é Titular:  S97
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C13
+Nome do Cliente: Madalena Resende
+Morada do Cliente: Rua onde ja morei
+Número do BI do Cliente: 4324324
+Número de Identificação Fiscal do Cliente: 4324233
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C14
+Nome do Cliente: Miguel Gregorio
+Morada do Cliente: Rua do Sao Gregorio a Subir
+Número do BI do Cliente: 4324112
+Número de Identificação Fiscal do Cliente: 532121
+Código dos seguros de que é Titular:  S44
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C15
+Nome do Cliente: Nuno Silva
+Morada do Cliente: Rua da Seara
+Número do BI do Cliente: 4322342342
+Número de Identificação Fiscal do Cliente: 12132131
+Código dos seguros de que é Titular:  STPub
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C16
+Nome do Cliente: Joana Monte
+Morada do Cliente: Travessa da Montanha
+Número do BI do Cliente: 412312
+Número de Identificação Fiscal do Cliente: 4324234
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C17
+Nome do Cliente: George Constanza
+Morada do Cliente: 13th street, NY
+Número do BI do Cliente: 43242123
+Número de Identificação Fiscal do Cliente: 432134242
+Código dos seguros de que é Titular:  SVP0
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C18
+Nome do Cliente: Jerry Seinfeld
+Morada do Cliente: 5th Avenue, NY
+Número do BI do Cliente: 3421312
+Número de Identificação Fiscal do Cliente: 321312313
+Código dos seguros de que é Titular:  STP98
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C19
+Nome do Cliente: Cosmo Kramer
+Morada do Cliente: right next to seinfeld
+Número do BI do Cliente: 43214312
+Número de Identificação Fiscal do Cliente: 54324532
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C2
+Nome do Cliente: Maria Joaquina Ferreira
+Morada do Cliente: Rua da Conega, Braga
+Número do BI do Cliente: 1543151
+Número de Identificação Fiscal do Cliente: 1187651
+Código dos seguros de que é Titular:  SH1
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C20
+Nome do Cliente: Luke Skywalker
+Morada do Cliente: Outer Rim, Onderoon
+Número do BI do Cliente: 3214132
+Número de Identificação Fiscal do Cliente: 45234423
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C21
+Nome do Cliente: Princess Leia
+Morada do Cliente: Outer Rim, Dantooine
+Número do BI do Cliente: 4324324
+Número de Identificação Fiscal do Cliente: 4324234
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C22
+Nome do Cliente: Mr Chewbacca
+Morada do Cliente: Space Wanderer
+Número do BI do Cliente: 4324234
+Número de Identificação Fiscal do Cliente: 432423423
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C23
+Nome do Cliente: Han-Solo
+Morada do Cliente: Space Wanderer - Ebon Hawk
+Número do BI do Cliente: 4324242
+Número de Identificação Fiscal do Cliente: 432432234
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C24
+Nome do Cliente: John Shepperd
+Morada do Cliente: Atlantis City - Ship
+Número do BI do Cliente: 4321432
+Número de Identificação Fiscal do Cliente: 432423
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C25
+Nome do Cliente: Dr McKay
+Morada do Cliente: Atlantis - Pegasus Galaxy
+Número do BI do Cliente: 432423
+Número de Identificação Fiscal do Cliente: 54325423
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C26
+Nome do Cliente: Nicholas Garrigan
+Morada do Cliente: Middle Field, Scotland
+Número do BI do Cliente: 432432
+Número de Identificação Fiscal do Cliente: 54324324
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C27
+Nome do Cliente: Marco Martins
+Morada do Cliente: Rua do estadio, Frossos Braga
+Número do BI do Cliente: 4324324
+Número de Identificação Fiscal do Cliente: 4532423
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C28
+Nome do Cliente: Jose Miguel Pereira
+Morada do Cliente: Santa Cristina de Longos
+Número do BI do Cliente: 43242
+Número de Identificação Fiscal do Cliente: 43223423
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C29
+Nome do Cliente: Rui Veloso
+Morada do Cliente: Rua Morais Costa, Braga
+Número do BI do Cliente: 3421144
+Número de Identificação Fiscal do Cliente: 4322333223
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C3
+Nome do Cliente: Pedro Manuel Freitas
+Morada do Cliente: Rua Ferreira Borges, Porto
+Número do BI do Cliente: 1453112
+Número de Identificação Fiscal do Cliente: 8113142
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C30
+Nome do Cliente: Maria de Fatima Fernandes
+Morada do Cliente: Rua da Seara, Braga
+Número do BI do Cliente: 3213123
+Número de Identificação Fiscal do Cliente: 43243244
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C31
+Nome do Cliente: Nuno Fernandes
+Morada do Cliente: Rua da Seara, Braga
+Número do BI do Cliente: 4324324
+Número de Identificação Fiscal do Cliente: 43243242
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C33
+Nome do Cliente: Andre Costa
+Morada do Cliente: Rua do Cafe Bezerra, Braga
+Número do BI do Cliente: 43243224
+Número de Identificação Fiscal do Cliente: 3212132121
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C34
+Nome do Cliente: Mariana Fernandes
+Morada do Cliente: Rua da Seara Braga
+Número do BI do Cliente: 423113
+Número de Identificação Fiscal do Cliente: 432432
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C35
+Nome do Cliente: Carolina Salgado
+Morada do Cliente: Rua do Dragao, Porto
+Número do BI do Cliente: 3213321
+Número de Identificação Fiscal do Cliente: 4324234324
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C36
+Nome do Cliente: Fabio Coentrao
+Morada do Cliente: Algures em Lisboa
+Número do BI do Cliente: 12456987
+Número de Identificação Fiscal do Cliente: 456765678
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C37
+Nome do Cliente: Micaela Andrioleta
+Morada do Cliente: Rua dos nomes estranhos
+Número do BI do Cliente: 213425
+Número de Identificação Fiscal do Cliente: 4326342
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C38
+Nome do Cliente: Vanessa Mata
+Morada do Cliente: Rua do Vamos Nessa
+Número do BI do Cliente: 2132131
+Número de Identificação Fiscal do Cliente: 321341231
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C39
+Nome do Cliente: Joceline Marineide
+Morada do Cliente: Rua dos nomes Estranhos
+Número do BI do Cliente: 32432423
+Número de Identificação Fiscal do Cliente: 34213198
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C4
+Nome do Cliente: Claudia Sofia Carvalho
+Morada do Cliente: Rua 31 de Janeiro, Braga
+Número do BI do Cliente: 1432151
+Número de Identificação Fiscal do Cliente: 1154331
+Código dos seguros de que é Titular:  SC1
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C40
+Nome do Cliente: Pedro Barbosa
+Morada do Cliente: Rua da estrada velha
+Número do BI do Cliente: 19990293
+Número de Identificação Fiscal do Cliente: 992919321
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C5
+Nome do Cliente: Joao Pedro Fernandes
+Morada do Cliente: Rua da Seara, Braga
+Número do BI do Cliente: 12925982
+Número de Identificação Fiscal do Cliente: 23999542
+Código dos seguros de que é Titular:  SHR1
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C6
+Nome do Cliente: Eduardo Sousa Teixeira
+Morada do Cliente: Rua da Residencia, Braga
+Número do BI do Cliente: 1421521
+Número de Identificação Fiscal do Cliente: 5116721
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C7
+Nome do Cliente: Luis Camelo Martins
+Morada do Cliente: Rua dos Peoes, Braga
+Número do BI do Cliente: 1221521
+Número de Identificação Fiscal do Cliente: 5119921
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C8
+Nome do Cliente: Susana Oliveira
+Morada do Cliente: Av. Antero de Quental, Braga
+Número do BI do Cliente: 4324249
+Número de Identificação Fiscal do Cliente: 732404203
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+
+	 ---- Cliente ----
+Código Único: C9
+Nome do Cliente: Cátia Baganha
+Morada do Cliente: Av. Antero de Quental, Braga
+Número do BI do Cliente: 5435242
+Número de Identificação Fiscal do Cliente: 543432523
+Código dos seguros de que é Titular: 
+	 ---- ------- ----
+-------------------------
+
+---SEGUROS PARA VENDA---
+
+
+	----Seguro Para Veiculos de Transporte de Passageiros----
+Codigo do Seguro: PUB21
+Codigo do Titular do Seguro: Sem Titular
+Preco Anual: 575.756986
+Agravamento: 5.5 %
+Descricao do Segurado: Autocarro
+Capacidade do Veiculo: 2000
+Ano do Veiculo: 35
+Marca do Veiculo: Mercedes
+Modelo do Veiculo: Truck4
+Kilometragem do Veiculo: 200000
+Matricula do Veiculo: 43-68-LC
+Veiculo Registado em nome de: TUB
+Data de Inicio: Fri May 27 23:33:43 WEST 2011
+Pago: false
+Forma de Pagamento: Debito Directo
+	Clausulas: 
+	
+	 ----Clausula----
+Codigo: CLA10
+Descrição: Danos Material Interior
+Acrescento: 6.9 %
+---------------------
+	
+	 ----Clausula----
+Codigo: CLA6
+Descrição: Vidros
+Acrescento: 2.2 %
+---------------------
+	
+	 ----Clausula----
+Codigo: CLA7
+Descrição: Roubo de Material Interior
+Acrescento: 5.4 %
+---------------------
+	---------------------------------------------------------
+
+	----Seguro Para Saude----
+Codigo do Seguro: S1
+Codigo do Titular do Seguro: Sem Titular
+Preco Anual: 22.2
+Agravamento: 2.2 %
+Descricao do Segurado: Pessoa Singular - O Titular
+Idade do Segurado: 45
+Condicao do Segurado | Obs: Nada a observar
+Data de Inicio: Fri May 27 23:33:43 WEST 2011
+Pago: false
+Forma de Pagamento: Dinheiro
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Saude----
+Codigo do Seguro: S11
+Codigo do Titular do Seguro: Sem Titular
+Preco Anual: 700.0
+Agravamento: 13.0 %
+Descricao do Segurado: Pessoa Singular
+Idade do Segurado: 65
+Condicao do Segurado | Obs: Problemas Oftalmologicos e cardiacos
+Data de Inicio: Fri May 27 23:33:43 WEST 2011
+Pago: false
+Forma de Pagamento: Dinheiro
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Veiculos de Transporte de Passageiros----
+Codigo do Seguro: ST2
+Codigo do Titular do Seguro: Sem Titular
+Preco Anual: 500.1
+Agravamento: 8.2 %
+Descricao do Segurado: Autocarro Transporte
+Capacidade do Veiculo: 500
+Ano do Veiculo: 1989
+Marca do Veiculo: Mercedes
+Modelo do Veiculo: BUS-X
+Kilometragem do Veiculo: 123000
+Matricula do Veiculo: DE-55-23
+Veiculo Registado em nome de: TUB
+Data de Inicio: Fri May 27 23:33:43 WEST 2011
+Pago: false
+Forma de Pagamento: Transferencia Multibanco
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Veiculos de Passageiros----
+Codigo do Seguro: SVP21
+Codigo do Titular do Seguro: Sem Titular
+Preco Anual: 557.730439
+Agravamento: 6.6 %
+Descricao do Segurado: Veiculo uso diario
+Capacidade do Veiculo: 1990
+Ano do Veiculo: 5
+Marca do Veiculo: Honda
+Modelo do Veiculo: Civic
+Kilometragem do Veiculo: 200000
+Data de Inicio: Fri May 27 23:33:43 WEST 2011
+Pago: false
+Forma de Pagamento: Dinheiro
+	Clausulas: 
+	
+	 ----Clausula----
+Codigo: CLA1
+Descrição: Vidros
+Acrescento: 2.2 %
+---------------------
+	
+	 ----Clausula----
+Codigo: CLA10
+Descrição: Danos Material Interior
+Acrescento: 6.9 %
+---------------------
+	
+	 ----Clausula----
+Codigo: CLA5
+Descrição: Assistencia em Viagem
+Acrescento: 2.1 %
+---------------------
+	---------------------------------------------------------
+
+	----Seguro Para Veiculos de Passageiros----
+Codigo do Seguro: SVP92
+Codigo do Titular do Seguro: Sem Titular
+Preco Anual: 421.4688
+Agravamento: 4.4 %
+Descricao do Segurado: Veiculo Unico
+Capacidade do Veiculo: 5
+Ano do Veiculo: 1999
+Marca do Veiculo: Opel
+Modelo do Veiculo: Corsa
+Kilometragem do Veiculo: 54002
+Data de Inicio: Fri May 27 23:33:43 WEST 2011
+Pago: false
+Forma de Pagamento: Dinheiro
+	Clausulas: 
+	
+	 ----Clausula----
+Codigo: CLA4
+Descrição: Terceiros
+Acrescento: 3.2 %
+---------------------
+	
+	 ----Clausula----
+Codigo: CLA5
+Descrição: Assistencia em Viagem
+Acrescento: 2.1 %
+---------------------
+	---------------------------------------------------------
+-------------------------
+
+-----SEGUROS VENDIDOS-----
+
+
+	----Seguro Para Habitacao Simples----
+Codigo do Seguro: 123
+Codigo do Titular do Seguro: C11
+Preco Anual: 105.2
+Agravamento: 10.0 %
+Descricao do Segurado: seguro x
+Tipo de Habitacao: t1
+Endereco da Habitacao: rua x
+Valor Avaliado da Habitacao: 1.0
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: dd
+	Clausulas: 
+	
+	 ----Clausula----
+Codigo: CLA16
+Descrição: Terramotos
+Acrescento: 5.2 %
+---------------------
+	-------------------------------------
+
+	----Seguro Para Veiculos de Passageiros----
+Codigo do Seguro: PASS45
+Codigo do Titular do Seguro: C1
+Preco Anual: 600.0
+Agravamento: 8.1 %
+Descricao do Segurado: Veiculo Singular
+Capacidade do Veiculo: 5
+Ano do Veiculo: 1989
+Marca do Veiculo: Ford
+Modelo do Veiculo: Fiesta
+Kilometragem do Veiculo: 125000
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Dinheiro
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Saude----
+Codigo do Seguro: S399
+Codigo do Titular do Seguro: C10
+Preco Anual: 400.0
+Agravamento: 6.5 %
+Descricao do Segurado: Pessoa Singular
+Idade do Segurado: 50
+Condicao do Segurado | Obs: Nada a observar
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Multibanco
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Saude----
+Codigo do Seguro: S44
+Codigo do Titular do Seguro: C14
+Preco Anual: 500.0
+Agravamento: 3.5 %
+Descricao do Segurado: Pessoa Singular
+Idade do Segurado: 32
+Condicao do Segurado | Obs: Usa Oculos
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Multibanco
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Saude----
+Codigo do Seguro: S97
+Codigo do Titular do Seguro: C12
+Preco Anual: 600.5
+Agravamento: 5.5 %
+Descricao do Segurado: Familiar
+Idade do Segurado: 43
+Condicao do Segurado | Obs: Nada a Observar
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Dinheiro
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Veiculos de Transporte de Cargas----
+Codigo do Seguro: SC1
+Codigo do Titular do Seguro: C4
+Preco Anual: 678.1
+Agravamento: 5.2 %
+Descricao do Segurado: Seguro Veiculo Unico
+Carga Maxima do Veiculo: 500.0
+Ano do Veiculo: 1989
+Marca do Veiculo: Volvo
+Modelo do Veiculo: Truck CDTI
+Kilometragem do Veiculo: 123000
+Matricula do Veiculo: 23-11-AZ
+Veiculo Registado em nome de: Antonio Pereira
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Dinheiro
+	Clausulas: 
+	----------------------------------------------------
+
+	----Seguro Para Habitacao Simples----
+Codigo do Seguro: SH1
+Codigo do Titular do Seguro: C2
+Preco Anual: 700.3
+Agravamento: 4.4 %
+Descricao do Segurado: Moradia Unica
+Tipo de Habitacao: Apartamento
+Endereco da Habitacao: Rua da Atalaia
+Valor Avaliado da Habitacao: 300000.0
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Dinheiro
+	Clausulas: 
+	-------------------------------------
+
+	----Seguro Para Habitacao com Recheio----
+Codigo do Seguro: SHR1
+Codigo do Titular do Seguro: C5
+Preco Anual: 200.2
+Agravamento: 2.1 %
+Descricao do Segurado: Moradia Unica
+Tipo de Habitacao: Vivenda isolada
+Endereco da Habitacao: Rua Desconhecida n23, Longos
+Valor Avaliado da Habitacao: 500000.0
+Recheio da Habitacao: Inclui todo o Conteudo da Habitacao mediante prova
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Multibanco
+	Clausulas: 
+	------------------------------------------
+
+	----Seguro Para Veiculos de Passageiros----
+Codigo do Seguro: SP1
+Codigo do Titular do Seguro: C10
+Preco Anual: 1243.9
+Agravamento: 10.1 %
+Descricao do Segurado: Veiculo Classico
+Capacidade do Veiculo: 2
+Ano do Veiculo: 1964
+Marca do Veiculo: Ferrari
+Modelo do Veiculo: 250-GTO
+Kilometragem do Veiculo: 900000
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Multibanco
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Veiculos de Transporte de Passageiros----
+Codigo do Seguro: STP98
+Codigo do Titular do Seguro: C18
+Preco Anual: 600.0
+Agravamento: 7.8 %
+Descricao do Segurado: Autocarro
+Capacidade do Veiculo: 35
+Ano do Veiculo: 2000
+Marca do Veiculo: Volvo
+Modelo do Veiculo: BUS A
+Kilometragem do Veiculo: 287989
+Matricula do Veiculo: 65-23-BF
+Veiculo Registado em nome de: TUB
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Transferencia
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Veiculos de Transporte de Passageiros----
+Codigo do Seguro: STPub
+Codigo do Titular do Seguro: C15
+Preco Anual: 900.0
+Agravamento: 15.0 %
+Descricao do Segurado: Camionete Internacional
+Capacidade do Veiculo: 45
+Ano do Veiculo: 2008
+Marca do Veiculo: Volvo
+Modelo do Veiculo: Transfer
+Kilometragem do Veiculo: 50200
+Matricula do Veiculo: 23-BB43
+Veiculo Registado em nome de: InterTransfer
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Debito Directo
+	Clausulas: 
+	---------------------------------------------------------
+
+	----Seguro Para Veiculos de Passageiros----
+Codigo do Seguro: SVP0
+Codigo do Titular do Seguro: C17
+Preco Anual: 1082.059393427267
+Agravamento: 14.4 %
+Descricao do Segurado: Veiculo de gama alta
+Capacidade do Veiculo: 4
+Ano do Veiculo: 2009
+Marca do Veiculo: Mercedes
+Modelo do Veiculo: SL500 AMG
+Kilometragem do Veiculo: 12000
+Data de Inicio: Thu May 27 23:33:43 WEST 2010
+Pago: false
+Forma de Pagamento: Multibanco
+	Clausulas: 
+	
+	 ----Clausula----
+Codigo: CLA1
+Descrição: Vidros
+Acrescento: 2.2 %
+---------------------
+	
+	 ----Clausula----
+Codigo: CLA2
+Descrição: Furto da Viatura
+Acrescento: 7.2 %
+---------------------
+	
+	 ----Clausula----
+Codigo: CLA3
+Descrição: Recheio da Viatura
+Acrescento: 4.2 %
+---------------------
+	
+	 ----Clausula----
+Codigo: CLA4
+Descrição: Terceiros
+Acrescento: 3.2 %
+---------------------
+	
+	 ----Clausula----
+Codigo: CLA5
+Descrição: Assistencia em Viagem
+Acrescento: 2.1 %
+---------------------
+	---------------------------------------------------------
+---CLAUSULAS PARA SEGUROS---
+
+
+	 ----Clausula----
+Codigo: CLA1
+Descrição: Vidros
+Acrescento: 2.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA10
+Descrição: Danos Material Interior
+Acrescento: 6.9 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA11
+Descrição: Carga Integral
+Acrescento: 10.4 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA12
+Descrição: Furto da Viatura
+Acrescento: 14.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA13
+Descrição: Atrasos na Entrega
+Acrescento: 11.1 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA14
+Descrição: Danos na Carga
+Acrescento: 14.4 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA15
+Descrição: Vidros
+Acrescento: 3.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA16
+Descrição: Terramotos
+Acrescento: 5.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA17
+Descrição: Incendios
+Acrescento: 17.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA18
+Descrição: Tsunamis
+Acrescento: 23.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA19
+Descrição: Vulcoes
+Acrescento: 18.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA2
+Descrição: Furto da Viatura
+Acrescento: 7.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA20
+Descrição: Danos Exteriores por ma construcao
+Acrescento: 2.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA21
+Descrição: Incendios Interiores
+Acrescento: 7.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA22
+Descrição: Assaltos
+Acrescento: 14.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA23
+Descrição: Viaturas na Garagem
+Acrescento: 13.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA24
+Descrição: Terramotos
+Acrescento: 5.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA25
+Descrição: Incendios
+Acrescento: 17.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA26
+Descrição: Tsunamis
+Acrescento: 23.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA27
+Descrição: Vulcoes
+Acrescento: 18.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA28
+Descrição: Danos Exteriores por ma construcao
+Acrescento: 2.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA29
+Descrição: Cirurgia Urgente
+Acrescento: 9.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA3
+Descrição: Recheio da Viatura
+Acrescento: 4.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA30
+Descrição: Dentario
+Acrescento: 20.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA31
+Descrição: Oftalmologia
+Acrescento: 22.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA32
+Descrição: Intervencao Oftalmologia Urgente
+Acrescento: 22.7 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA33
+Descrição: Internamentos
+Acrescento: 11.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA4
+Descrição: Terceiros
+Acrescento: 3.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA5
+Descrição: Assistencia em Viagem
+Acrescento: 2.1 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA6
+Descrição: Vidros
+Acrescento: 2.2 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA7
+Descrição: Roubo de Material Interior
+Acrescento: 5.4 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA8
+Descrição: Utentes em Caso de Acidente
+Acrescento: 7.7 %
+---------------------
+
+	 ----Clausula----
+Codigo: CLA9
+Descrição: Terceiros
+Acrescento: 4.2 %
+---------------------
+-------------------------
+
+---ASSOCIACOES:---
+
+Codigo de Clausula	Tipo de Seguro
+	CLA1				VeiculosPassageiros
+	CLA10				STPublico
+	CLA11				STCargas
+	CLA12				STCargas
+	CLA13				STCargas
+	CLA14				STCargas
+	CLA15				STCargas
+	CLA16				Habitacao
+	CLA17				Habitacao
+	CLA18				Habitacao
+	CLA19				Habitacao
+	CLA2				VeiculosPassageiros
+	CLA20				Habitacao
+	CLA21				HabitacaoRecheio
+	CLA22				HabitacaoRecheio
+	CLA23				HabitacaoRecheio
+	CLA24				HabitacaoRecheio
+	CLA25				HabitacaoRecheio
+	CLA26				HabitacaoRecheio
+	CLA27				HabitacaoRecheio
+	CLA28				HabitacaoRecheio
+	CLA29				Saude
+	CLA3				VeiculosPassageiros
+	CLA30				Saude
+	CLA31				Saude
+	CLA32				Saude
+	CLA33				Saude
+	CLA4				VeiculosPassageiros
+	CLA5				VeiculosPassageiros
+	CLA6				STPublico
+	CLA7				STPublico
+	CLA8				STPublico
+	CLA9				STPublico
+-------------------------
+Data: Fri May 27 23:33:43 WEST 2011
+-----------FIM-----------
+

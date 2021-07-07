@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Filipa Santos(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Comments" table="comments" lazy="false">
+		<id name="idComment" column="idComment" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="body" column="body" type="string" length="200" not-null="true" lazy="false"/>
+		<property name="createdAt" column="createdAt" type="timestamp" not-null="true" lazy="false"/>
+		<many-to-one name="idUser" cascade="lock" column="idUser" index="fk_Comments_Users1_idx" class="Users" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+		<many-to-one name="idPost" cascade="lock" column="idPost" index="fk_Comments_Posts1_idx" class="Posts" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+	</class>
+</hibernate-mapping>

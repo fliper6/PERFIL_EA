@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Template</title>
+  </head>
+  <body>
+    <div class="container" id="gamesApp">
+      <div class="row">
+        <div class="col">
+        <h1>{{appName}}</h1>
+        </div>
+      </div> <!-- row -->
+      <div class="row bg-light">
+        <div class="col-md-4 d-flex align-items-center">
+          <h3>{{userName}}</h3> 
+        </div>
+        <div class="col-md-8">
+          <nav class="navbar nav-pills justify-content-end">
+                <a class="nav-link active" href="allG">All Games</a>
+                <a class="nav-link" href="myG">My Games</a>
+                <a class="nav-link" href="addG">Add Games</a>
+          </nav>
+        </div> <!-- col -->
+      </div> <!-- row -->
+      <div class="row">
+        <div class="col-sm-8">
+          <table class="table table-striped table-bordered table-sm">
+            <thead>
+              <tr><th>Games</th><th class="extras">Year</th><th>Platform</th></tr>
+            </thead>
+            <tbody>
+              <tr v-for="g in gamesPaginated[curPage]" v-bind:key="g.id" v-on:click="updateShow(g)">
+                <td>{{g.name}}</td><td>{{g.year}}</td><td>{{g.platform}}</td>
+              </tr>
+              </tbody>              
+          </table>
+          <nav class="d-flex justify-content-end" v-if="games.length>4">
+            <div class="pagination">
+              <button v-bind:disabled="curPage == 0" @click="curPage--">&Lt;</li>
+              <button v-for="(games,idx) in gamesPaginated" @click="curPage=idx">{{idx+1}}</button>
+              <button v-bind:disabled="curPage == gamesPaginated.length - 1" @click="curPage++">&Gt;</button>
+            </div>
+          </nav>
+          <div class="d-flex justify-content-end" v-else>
+            No need to sail away!
+          </div>
+        </div> <!-- col -->
+        <div class="col-sm-4">
+          <form>
+            <fieldset>
+              <legend>Filter</legend>
+              <select class="form-control" v-model.number="selYear" >
+                <option>year</option>
+                <option v-for="g in years">{{g}}</option>
+              </select>
+              <select class="form-control">
+                <option>platform</option>
+                <option v-for="g in platforms">{{g}}</option>
+              </select>
+            </fieldset>
+          </form>
+        </div> <!-- col -->
+      </div> <!-- row -->
+      <div class="row">
+        <div class="col" >
+          <p class="text-center"><sub>Footer information &copy;</sub></p>
+        </div>
+      </div> <!-- row -->
+      <game-show v-bind:game="selGame" v-if="show && selGame.id" @back="selGame={}"></game-show>
+    </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="scripts/gamesApp.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

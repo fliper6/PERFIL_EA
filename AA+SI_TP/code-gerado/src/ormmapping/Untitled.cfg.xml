@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Filipa Santos(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+ "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+   	<!-- properties -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://127.0.0.1:3306/mydb</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">lol123lol123</property>
+		<property name="show_sql">false</property>
+		<property name="query.substitutions">true 1, false 0, yes 'Y', no 'N'</property>
+		<!-- mapping files -->
+		<mapping resource="ormmapping/Comments.hbm.xml" />
+		<mapping resource="ormmapping/Files.hbm.xml" />
+		<mapping resource="ormmapping/Posts.hbm.xml" />
+		<mapping resource="ormmapping/Ratings.hbm.xml" />
+		<mapping resource="ormmapping/Resources.hbm.xml" />
+		<mapping resource="ormmapping/Resourcetypes.hbm.xml" />
+		<mapping resource="ormmapping/Roles.hbm.xml" />
+		<mapping resource="ormmapping/Updates.hbm.xml" />
+		<mapping resource="ormmapping/Users.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

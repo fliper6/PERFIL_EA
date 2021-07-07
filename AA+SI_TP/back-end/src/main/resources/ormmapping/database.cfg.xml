@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Database>
+  <Setting type="32">
+    <Driver></Driver>
+    <DriverFiles></DriverFiles>
+    <Dialect></Dialect>
+    <DriverClass></DriverClass>
+    <URL></URL>
+    <UserName></UserName>
+    <EncryptedPassword>32F3ACE632ECEBAFB24DCAF99A8C6CDC</EncryptedPassword>
+    <HostName></HostName>
+    <PortNO></PortNO>
+    <DBName></DBName>
+    <ServiceName></ServiceName>
+    <ServerName></ServerName>
+    <SelectedForm>true</SelectedForm>
+  </Setting>
+  <Setting type="2">
+    <Driver>MySQL (Connector/J Driver)</Driver>
+    <DriverFiles>&lt;&lt;MySQL Connector/J 8.0.23&gt;&gt;</DriverFiles>
+    <Dialect>org.hibernate.dialect.MySQLDialect</Dialect>
+    <DriverClass>com.mysql.cj.jdbc.Driver</DriverClass>
+    <URL>jdbc:mysql://127.0.0.1:3306/mydb</URL>
+    <UserName>user</UserName>
+    <EncryptedPassword>1271400906B1018E552D709242809613</EncryptedPassword>
+    <HostName>localhost</HostName>
+    <PortNO>3306</PortNO>
+    <DBName>mydb</DBName>
+    <ServiceName></ServiceName>
+    <ServerName></ServerName>
+    <SelectedForm>true</SelectedForm>
+  </Setting>
+</Database>

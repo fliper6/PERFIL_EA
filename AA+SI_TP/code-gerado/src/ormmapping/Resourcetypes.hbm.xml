@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Filipa Santos(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Resourcetypes" table="resourcetypes" lazy="false">
+		<id name="idResourceType" column="idResourceType" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="type" column="type" type="string" length="50" not-null="true" lazy="false"/>
+		<set name="ORM_Resources" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idResourceType" not-null="true"/>
+			<one-to-many class="Resources"/>
+		</set>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+Filipa Santos, A83631 
+################################################ 3.1) ###############################################
+
+1.a) ################################################################################################
+-> MPBBMPBBMP (7.30 sec)
+
+1.b) ################################################################################################
+-> MPBBHMKKHMP (7.36 sec)
+
+2.a) ################################################################################################
+
+NIF: -> Input (Figura 1): (MPBBMPBB)*9 [ou (MP(BB*5))*9 (interface de cliques para cima / baixo)]
+     -> Input (Interface Alternativa): MPBBHT(9)
+
+Nome: MPBBHT(15)  (T(15) = 15*K)
+
+Conta (Figura 1) -> 51.82 sec
+MPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBMPBBHKKKKKKKKKKKKKK
+    
+Conta (Interface Alternativa) -> 12.52 sec
+MPBBHKKKKKKKKKMPBBHKKKKKKKKKKKKKKK
+
+2.b) ################################################################################################
+
+  A interface do NIB é muito pouco prática, pois demora demasiado tempo a escolher tantos números com o rato.
+  Input textual seria mais rápido mas, como o enunciado explica, teria-se de efetuar uma verificação posterior 
+para certificarmo-nos que o input é só constituído por números e se é válido.

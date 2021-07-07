@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Filipa Santos(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Resources" table="resources" lazy="false">
+		<id name="idResource" column="idResource" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="title" column="title" type="string" length="50" not-null="true" lazy="false"/>
+		<property name="description" column="description" type="string" length="200" not-null="true" lazy="false"/>
+		<property name="createdAt" column="createdAt" type="timestamp" not-null="true" lazy="false"/>
+		<property name="registeredAt" column="registeredAt" type="timestamp" not-null="true" lazy="false"/>
+		<property name="lastModifiedAt" column="lastModifiedAt" type="timestamp" not-null="true" lazy="false"/>
+		<property name="visibility" column="visibility" type="boolean" length="3" not-null="true" lazy="false"/>
+		<property name="nDownloads" column="nDownloads" type="integer" length="10" not-null="true" lazy="false"/>
+		<property name="available" column="available" type="boolean" length="3" not-null="true" lazy="false"/>
+		<many-to-one name="idResourceType" cascade="lock" column="idResourceType" index="fk_Resources_ResourceTypes1_idx" class="Resourcetypes" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+		<set name="ORM_Files" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idResource" not-null="true"/>
+			<one-to-many class="Files"/>
+		</set>
+		<set name="ORM_Posts" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idResource" not-null="true"/>
+			<one-to-many class="Posts"/>
+		</set>
+		<set name="ORM_Ratings" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idResource" not-null="true"/>
+			<one-to-many class="Ratings"/>
+		</set>
+		<set name="ORM_Updates" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idResource" not-null="true"/>
+			<one-to-many class="Updates"/>
+		</set>
+	</class>
+</hibernate-mapping>

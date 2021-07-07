@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Model quotesql="1" tablecharset="" mysql_version="504" mssql_version="2005" derby_version="106" ingres_version="9">
+  <Entity name="comments" Unlogged="false" PKClustered="0">
+    <Column name="idComment">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="body">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>200</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="createdAt">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>20</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idUser">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>users.idUser</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idPost">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>posts.idPost</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Index name="fk_Comments_Posts1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idPost"/>
+    </Index>
+    <Index name="fk_Comments_Users1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idUser"/>
+    </Index>
+  </Entity>
+  <Entity name="files" Unlogged="false" PKClustered="0">
+    <Column name="idFile">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="name">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>50</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="mimetype">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>20</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="path">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>60</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idResource">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>resources.idResource</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Index name="fk_Files_Resources1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idResource"/>
+    </Index>
+  </Entity>
+  <Entity name="posts" Unlogged="false" PKClustered="0">
+    <Column name="idPost">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="body">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>200</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="createdAt">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>20</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idUser">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>users.idUser</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idResource">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>resources.idResource</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Index name="fk_Posts_Resources1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idResource"/>
+    </Index>
+    <Index name="fk_Posts_Users1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idUser"/>
+    </Index>
+  </Entity>
+  <Entity name="ratings" Unlogged="false" PKClustered="0">
+    <Column name="idRatings">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="rating">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idResource">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>resources.idResource</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idUser">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>users.idUser</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Index name="fk_Ratings_Resources1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idResource"/>
+    </Index>
+    <Index name="fk_Ratings_Users1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idUser"/>
+    </Index>
+  </Entity>
+  <Entity name="resources" Unlogged="false" PKClustered="0">
+    <Column name="idResource">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="title">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>50</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="description">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>200</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="createdAt">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>20</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="registeredAt">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>20</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="lastModifiedAt">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>20</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="visibility">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>1</Type>
+      <Length>3</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="nDownloads">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="available">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>1</Type>
+      <Length>3</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idResourceType">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>resourcetypes.idResourceType</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Index name="fk_Resources_ResourceTypes1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idResourceType"/>
+    </Index>
+  </Entity>
+  <Entity name="resourcetypes" Unlogged="false" PKClustered="0">
+    <Column name="idResourceType">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="type">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>50</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="roles" Unlogged="false" PKClustered="0">
+    <Column name="idRole">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="type">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>50</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="affiliation">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>50</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="updates" Unlogged="false" PKClustered="0">
+    <Column name="idUpdate">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="state">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>45</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="createdAt">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>20</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idUser">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>users.idUser</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idResource">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>resources.idResource</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Index name="fk_Updates_Users1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idUser"/>
+    </Index>
+    <Index name="fk_Updates_Resources1_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idResource"/>
+    </Index>
+  </Entity>
+  <Entity name="users" Unlogged="false" PKClustered="0">
+    <Column name="idUser">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="email">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>50</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="password">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>50</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="level">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>20</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>Consumidor</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="registerDate">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>20</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="description">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>200</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="picture">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>60</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="blocked">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>1</Type>
+      <Length>3</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="idRole">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>roles.idRole</ReferencedColumn>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Index name="fk_Users_Roles_idx" unique="false" fulltext="false" bitmap="false" clustered="2">
+      <Column name="idRole"/>
+    </Index>
+  </Entity>
+  <ForeignKey name="fk_Comments_Users1">
+    <ReferenceTable>comments</ReferenceTable>
+    <ReferencedTable>users</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idUser</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idUser</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Comments_Posts1">
+    <ReferenceTable>comments</ReferenceTable>
+    <ReferencedTable>posts</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idPost</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idPost</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Files_Resources1">
+    <ReferenceTable>files</ReferenceTable>
+    <ReferencedTable>resources</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idResource</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idResource</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Posts_Users1">
+    <ReferenceTable>posts</ReferenceTable>
+    <ReferencedTable>users</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idUser</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idUser</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Posts_Resources1">
+    <ReferenceTable>posts</ReferenceTable>
+    <ReferencedTable>resources</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idResource</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idResource</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Ratings_Resources1">
+    <ReferenceTable>ratings</ReferenceTable>
+    <ReferencedTable>resources</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idResource</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idResource</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Ratings_Users1">
+    <ReferenceTable>ratings</ReferenceTable>
+    <ReferencedTable>users</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idUser</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idUser</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Resources_ResourceTypes1">
+    <ReferenceTable>resources</ReferenceTable>
+    <ReferencedTable>resourcetypes</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idResourceType</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idResourceType</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Updates_Users1">
+    <ReferenceTable>updates</ReferenceTable>
+    <ReferencedTable>users</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idUser</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idUser</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Updates_Resources1">
+    <ReferenceTable>updates</ReferenceTable>
+    <ReferencedTable>resources</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idResource</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idResource</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="fk_Users_Roles">
+    <ReferenceTable>users</ReferenceTable>
+    <ReferencedTable>roles</ReferencedTable>
+    <OnUpdate>Restrict</OnUpdate>
+    <OnDelete>Restrict</OnDelete>
+    <Columns>
+      <Column>idRole</Column>
+    </Columns>
+    <RefColumns>
+      <Column>idRole</Column>
+    </RefColumns>
+  </ForeignKey>
+</Model>

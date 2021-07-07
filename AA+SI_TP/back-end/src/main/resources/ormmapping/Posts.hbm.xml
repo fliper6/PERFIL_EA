@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Filipa Santos(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="backend.dao.Posts" table="posts" lazy="false">
+		<id name="idPost" column="idPost" type="integer" unsaved-value="0">
+			<generator class="increment">
+			</generator>
+		</id>
+		<property name="title" column="title" type="string" length="50" not-null="true" lazy="false"/>
+		<property name="body" column="body" type="string" length="200" not-null="true" lazy="false"/>
+		<property name="createdAt" column="createdAt" type="timestamp" not-null="true" lazy="false"/>
+		<many-to-one name="idUser" cascade="lock" column="idUser" index="fk_Posts_Users1_idx" class="backend.dao.Users" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+		<many-to-one name="idResource" cascade="lock" column="idResource" index="fk_Posts_Resources1_idx" class="backend.dao.Resources" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+		<set name="ORM_Comments" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idPost" not-null="true"/>
+			<one-to-many class="backend.dao.Comments"/>
+		</set>
+	</class>
+</hibernate-mapping>

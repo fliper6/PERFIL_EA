@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jboss-servlet-api_4.0_spec-1.0.0.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Work/Ensino/SI [MIEI]/Tutorials/4 - JSP JSTL/2019/wildfly-16.0.0.Final/modules/system/layers/base/javax/servlet/api/main/jboss-servlet-api_4.0_spec-1.0.0.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/servlet-api.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/jstl-1.2.jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Work/Ensino/SI [MIEI]/Tutorials/4 - JSP JSTL/2019/wildfly-16.0.0.Final/modules/system/layers/base/javax/servlet/api/main/jboss-servlet-api_4.0_spec-1.0.0.Final.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/jstl-1.2.jar" recursive="false" />
+  </library>
+</component>

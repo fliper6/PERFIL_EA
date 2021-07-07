@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Filipa Santos(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Files" table="files" lazy="false">
+		<id name="idFile" column="idFile" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="name" column="name" type="string" length="50" not-null="true" lazy="false"/>
+		<property name="mimetype" column="mimetype" type="string" length="20" not-null="true" lazy="false"/>
+		<property name="path" column="path" type="string" length="60" not-null="true" lazy="false"/>
+		<many-to-one name="idResource" cascade="lock" column="idResource" index="fk_Files_Resources1_idx" class="Resources" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+	</class>
+</hibernate-mapping>

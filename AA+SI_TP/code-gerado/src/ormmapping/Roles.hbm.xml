@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Filipa Santos(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Roles" table="roles" lazy="false">
+		<id name="idRole" column="idRole" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="type" column="type" type="string" length="50" not-null="true" lazy="false"/>
+		<property name="affiliation" column="affiliation" type="string" length="50" not-null="true" lazy="false"/>
+		<set name="ORM_Users" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idRole" not-null="true"/>
+			<one-to-many class="Users"/>
+		</set>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Filipa Santos(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Updates" table="updates" lazy="false">
+		<id name="idUpdate" column="idUpdate" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="state" column="state" type="string" length="45" not-null="true" lazy="false"/>
+		<property name="createdAt" column="createdAt" type="timestamp" not-null="true" lazy="false"/>
+		<many-to-one name="idUser" cascade="lock" column="idUser" index="fk_Updates_Users1_idx" class="Users" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+		<many-to-one name="idResource" cascade="lock" column="idResource" index="fk_Updates_Resources1_idx" class="Resources" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+	</class>
+</hibernate-mapping>

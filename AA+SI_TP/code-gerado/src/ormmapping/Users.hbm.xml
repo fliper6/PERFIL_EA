@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Filipa Santos(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Users" table="users" lazy="false">
+		<id name="idUser" column="idUser" type="integer" unsaved-value="0">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="email" column="email" type="string" length="50" not-null="true" lazy="false"/>
+		<property name="password" column="password" type="string" length="50" not-null="true" lazy="false"/>
+		<property name="level" type="string" length="20" not-null="true" lazy="false">
+			<column name="level" default="Consumidor"/>
+		</property>
+		<property name="registerDate" column="registerDate" type="timestamp" not-null="true" lazy="false"/>
+		<property name="description" column="description" type="string" length="200" not-null="true" lazy="false"/>
+		<property name="picture" column="picture" type="string" length="60" not-null="true" lazy="false"/>
+		<property name="blocked" column="blocked" type="boolean" length="3" not-null="true" lazy="false"/>
+		<many-to-one name="idRole" cascade="lock" column="idRole" index="fk_Users_Roles_idx" class="Roles" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+		<set name="ORM_Comments" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idUser" not-null="true"/>
+			<one-to-many class="Comments"/>
+		</set>
+		<set name="ORM_Posts" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idUser" not-null="true"/>
+			<one-to-many class="Posts"/>
+		</set>
+		<set name="ORM_Ratings" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idUser" not-null="true"/>
+			<one-to-many class="Ratings"/>
+		</set>
+		<set name="ORM_Updates" lazy="true" cascade="save-update,lock" inverse="true">
+			<key column="idUser" not-null="true"/>
+			<one-to-many class="Updates"/>
+		</set>
+	</class>
+</hibernate-mapping>

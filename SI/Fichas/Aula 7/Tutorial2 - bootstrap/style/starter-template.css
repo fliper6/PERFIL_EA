@@ -1,0 +1,33 @@
+body {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px 10px;
+  overflow-x: hidden;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+h1 {
+  color: #498e97; 
+  font-size: 30px;
+}
+
+h2 {
+  color: #4b4b4b; 
+  font-size: 25px;
+}
+
+a {
+  color: #000000 !important; 
+}
+
+.footer {
+  padding: 5px;
+  background-color: #d3d3d3;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

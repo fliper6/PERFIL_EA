@@ -1,0 +1,3 @@
+Sim, o bootstrap quebra Separation of Concerns em cercas situações. Por exemplo, no caso de alterar o número de colunas a serem usadas num dado componente (col-xs-12) implica explicitar a própria classe dentro dos elementos (<div class="item col-xs-12">, o que não é escalável para vários elementos que se pretendam que sejam diferentes mas que usem o mesmo número de colunas (um exemplo seria ter várias "rows" com 12 colunas mas com uma "margin" diferente para cada uma delas).
+
+Assim, o Bootstrap permite utilizar mixins (SASS) para ter mais controlo sobre a semântica. Por exemplo, no mesmo caso anterior, com mixins ficaria <div class="item"> e no ficheiro .css é que continha o styling, isto é, .item {@include make-xs-column(12);}.
