@@ -4,7 +4,7 @@
 </p>
 <h1 align="center">MIEI-PERFIL EA</h1>
 <h3 align="center">Universidade do Minho</h3>
-<p  align="center"> Conteúdo das unidades curriculares do perfild de Engenharia de Aplicações do Mestrado Integrado em Engenharia Informática (2020-2021) </p>
+<p  align="center"> Conteúdo das unidades curriculares do perfil de Engenharia de Aplicações do Mestrado Integrado em Engenharia Informática (2020-2021) </p>
 
 ---
 
