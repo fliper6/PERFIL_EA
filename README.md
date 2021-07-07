@@ -9,9 +9,10 @@
 ---
 
 #### 1º SEMESTRE: <br/>
- - [Administração de Bases de Dados]() <br/>
- - [Infraestrutura de Centro de Dados]() <br/>
+ - [Administração de Bases de Dados](https://github.com/fliper6/PERFIL_EA/tree/main/1%C2%BA%20Semestre/ABD) <br/>
+ - [Infraestrutura de Centro de Dados](https://github.com/fliper6/PERFIL_EA/tree/main/1%C2%BA%20Semestre/ICD) <br/>
  
 #### 2º SEMESTRE: <br/>
- - [Arquiteturas Aplicacionais]() <br/>
- - [Sistemas Interativos]() <br/>
+ - [Arquiteturas Aplicacionais](https://github.com/fliper6/PERFIL_EA/tree/main/2%C2%BA%20Semestre/AA) <br/>
+ - [Sistemas Interativos](https://github.com/fliper6/PERFIL_EA/tree/main/2%C2%BA%20Semestre/SI) <br/>
+ - [Trabalho Prático AA+SI](https://github.com/fliper6/PERFIL_EA/tree/main/2%C2%BA%20Semestre/AA%2BSI_TP)
