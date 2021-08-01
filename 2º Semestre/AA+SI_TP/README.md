@@ -3,4 +3,5 @@ Trabalho de Arquiteturas Aplicacionais e Sistemas Interativos (2020/2021, Univer
 Feito em conjunto com os alunos: <br/>
 - [Hugo Cardoso](https://github.com/Abjiri) <br/>
 - [João Cunha](https://github.com/Jcc20) <br/>
+- [Luís Ramos](https://github.com/LuisRamos99) <br/>
 - [Válter Carvalho](https://github.com/wurzy) 
